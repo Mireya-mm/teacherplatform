@@ -1,0 +1,20 @@
+﻿# HarmonyOS build
+CampusTutor/build/
+CampusTutor/entry/build/
+CampusTutor/.hvigor/
+CampusTutor/.idea/
+CampusTutor/build/outputs/
+
+# Python
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+*.pyc
+backend/campus_tutor.db
+backend/.env
+
+# IDE
+.idea/
+.vscode/
+*.log
+local.properties

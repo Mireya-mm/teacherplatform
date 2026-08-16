@@ -1,0 +1,2 @@
+# Obfuscation rules for release build.
+# Add keep rules here if you need to prevent specific classes/members from being renamed.

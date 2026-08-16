@@ -1,0 +1,26 @@
+{
+  "src": [
+    "entryability/pages/Index",
+    "pages/Login",
+    "pages/Register",
+    "pages/Home",
+    "pages/DemandList",
+    "pages/DemandDetail",
+    "pages/PublishDemand",
+    "pages/TutorList",
+    "pages/TutorDetail",
+    "pages/ChatList",
+    "pages/Chat",
+    "pages/MyApplications",
+    "pages/MyDemands",
+    "pages/MyCandidates",
+    "pages/Certification",
+    "pages/TutorProfileEdit",
+    "pages/Profile",
+    "pages/OrderDraft",
+    "pages/SafetyNotice",
+    "pages/Report",
+    "pages/Evaluation",
+    "pages/Admin"
+  ]
+}

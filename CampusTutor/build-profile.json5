@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\mm\\.ohos\\config\\default_CampusTutor__HBpYHZMTQpJmCvwFD7hNvaGYwsEW-u3RZB6gcO0X7c=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B827105C12C6127B8BE321FE9950147267668F29081B5E8031D1A4978076124A3843BA8C80C30F9",
+          "profile": "C:\\Users\\mm\\.ohos\\config\\default_CampusTutor__HBpYHZMTQpJmCvwFD7hNvaGYwsEW-u3RZB6gcO0X7c=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\mm\\.ohos\\config\\default_CampusTutor__HBpYHZMTQpJmCvwFD7hNvaGYwsEW-u3RZB6gcO0X7c=.p12",
+          "storePassword": "0000001B86106131A0256AB727BB9DA52CBFF4D19B152C717BF7303DD945753D991994BB1356475C90A3A0"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
